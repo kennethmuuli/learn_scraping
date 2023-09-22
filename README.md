@@ -16,6 +16,10 @@ Grand Wizard Kaspar teaches us about webpage scraping
 - Parcel (https://parceljs.org/getting-started/webapp/) lightweight bundle, mis pakib sisu kokku üheks javascriptiks, et brauseris sisu kuvada.
 
 
+Muud stuff:
+- hea veebikoomiks: https://xkcd.com/
+
+
 ## tunnid
 
 <details>
