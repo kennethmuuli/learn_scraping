@@ -10,7 +10,10 @@ Grand Wizard Kaspar teaches us about webpage scraping
 - Tööriistad:
     - node.js
     - axios (https://github.com/axios/axios#installing)
-- 
+- Node ei kasuta defaultina import vaid require, sellest saab ümber järgmiste trikkidega:
+    - nimetada fail ümber .js -> .mjs
+    - muuta package.jsonis main file tüübiks (lisada juurde) ->  "type": "module"
+- Parcel (https://parceljs.org/getting-started/webapp/) lightweight bundle, mis pakib sisu kokku üheks javascriptiks, et brauseris sisu kuvada.
 
 
 ## tunnid
