@@ -5,6 +5,7 @@ Grand Wizard Kaspar teaches us about webpage scraping
 - GitHub.CLI
 - Kaspari git: kta22elearnscraping 
 - https://www.w3schools.com/cssref/css_selectors.php
+- Rohkem infot asünkroonsuse ja JSi kohta: https://www.youtube.com/watch?v=8aGhZQkoFbQ
 
 Muud stuff:
 - hea veebikoomiks: https://xkcd.com/
@@ -30,6 +31,7 @@ Muud stuff:
 6) API kaudu on võimalik saada kätte, mis iganes infot API pakub, kellele iganes on lubatud API ligipääs, kuid HTMLi lugemiseks on vaja veidi teisi vahendeid, ntks Cheerio.
     - Otsime lehe (https://xkcd.com/) HTMList välja õige unikaalse selektori, et jõuda sisuni, mis meid huvitab.
     - <div id="comic">
-    
+7) async funk JS: https://masteringjs.io/tutorials/node/sleep
+
 
 </details>
