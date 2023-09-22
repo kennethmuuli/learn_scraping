@@ -7,6 +7,10 @@ Grand Wizard Kaspar teaches us about webpage scraping
 - Veidi litsentsidest:
     - https://choosealicense.com/
     - http://www.wtfpl.net/about/
+- Tööriistad:
+    - node.js
+    - axios (https://github.com/axios/axios#installing)
+- 
 
 
 ## tunnid
