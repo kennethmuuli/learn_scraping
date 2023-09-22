@@ -4,6 +4,10 @@ Grand Wizard Kaspar teaches us about webpage scraping
 ## resources
 - GitHub.CLI
 - Kaspari git: kta22elearnscraping 
+- Veidi litsentsidest:
+    - https://choosealicense.com/
+    - http://www.wtfpl.net/about/
+
 
 ## tunnid
 
