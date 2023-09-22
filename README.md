@@ -3,7 +3,7 @@ Grand Wizard Kaspar teaches us about webpage scraping
 
 ## resources
 - GitHub.CLI
-- Kaspari git: kta22elearnscraping 
+- Kaspari git: kta22elearnscraping (https://github.com/Kasparsu/kta22elearnscraping)
 - https://www.w3schools.com/cssref/css_selectors.php
 - Rohkem infot asünkroonsuse ja JSi kohta: https://www.youtube.com/watch?v=8aGhZQkoFbQ
 
