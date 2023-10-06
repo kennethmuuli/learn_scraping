@@ -14,6 +14,35 @@ Muud stuff:
 ## tunnid
 
 <details>
+    <Summary>06/10/2023</Summary>
+
+1) Kaspar näitas scrapingut https://www.grrlpowercomic.com/archives/comic/grrl-power-1194/ kui pole võimalik lihtsalt läbi URLi liikuda järgmisele positusele.
+
+````
+
+// võrdle varasemat koodi varianti gitist, selle lisasime juurde
+url = $('.comic-nav-previous').eq(0).attr('href');
+    console.log(url);
+
+````
+
+2) Proovisime scrapida tahvlis enda tunniplaani mingites kuupäevade vahemikus.
+
+````
+
+let url = 'https://tahvel.edu.ee/hois_back/timetableevents/timetableByGroup/14';
+let res = await axios.get(url, {
+    params: {
+        from: '2023-10-02T00:00:00Z',
+        studentGroups: 7225,
+        thru: '2023-10-08T00:00:00Z'
+    }}
+
+````
+
+</details>
+
+<details>
     <Summary>9/22/2023</Summary>
     
 1) Tõmbasime alla github.cli, et reposid saaks mugavalt ja luua läbi terminali (NB! GitBash otse ei tööta korrektselt. Tööriist selle jaoks liiga graafiline, jooksutame GitBashi läbi windows terminali.)

@@ -4,26 +4,16 @@ import fs from 'fs';
 
 function delay(time) {
     return new Promise(resolve => setTimeout(resolve, time));
-  } 
+} 
+    await delay(1000);
 
-for (let i = 1; i < 10; i++) {
-    let data;
-    let response;
-    if (!fs.existsSync('./cache/' + i + '.html')) {
-        response = await axios.get('https://xkcd.com/' + i);
-        await delay(1000);
-        console.log('!!!NOT CACHE!!!')
-        data = response.data;
-        fs.writeFileSync('./cache/' + i + '.html', data)
-    } else {
-        console.log('!!!CACHE!!!')
-        data = fs.readFileSync('./cache/' + i + '.html');
+let url = 'https://tahvel.edu.ee/hois_back/timetableevents/timetableByGroup/14';
+let res = await axios.get(url, {
+    params: {
+        from: '2023-10-02T00:00:00Z',
+        studentGroups: 7225,
+        thru: '2023-10-08T00:00:00Z'
     }
-    
-    const $ = cheerio.load(data);
-    let img = $('#comic>img');  
-    console.log(img.attr('title'));
-    console.log(img.attr('alt'));
-    console.log(img.attr('src'));
-   
-}
+});
+
+console.log(res.data);
