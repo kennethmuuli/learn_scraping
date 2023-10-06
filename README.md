@@ -6,6 +6,7 @@ Grand Wizard Kaspar teaches us about webpage scraping
 - Kaspari git: kta22elearnscraping (https://github.com/Kasparsu/kta22elearnscraping)
 - https://www.w3schools.com/cssref/css_selectors.php
 - Rohkem infot asünkroonsuse ja JSi kohta: https://www.youtube.com/watch?v=8aGhZQkoFbQ
+- https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797
 
 Muud stuff:
 - hea veebikoomiks: https://xkcd.com/
@@ -26,7 +27,7 @@ url = $('.comic-nav-previous').eq(0).attr('href');
 
 ````
 
-2) Proovisime scrapida tahvlis enda tunniplaani mingites kuupäevade vahemikus.
+2) Proovisime scrapida tahvlis enda tunniplaani mingites kuupäevade vahemikus. https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797
 
 ````
 
@@ -39,6 +40,9 @@ let res = await axios.get(url, {
     }}
 
 ````
+
+3) Kaspar rääkis ja näitas erinevaid asju konsooli aplikatsioonide tarbeks, näiteks teksti värvid (ANSI escape code colors).
+
 
 </details>
 
